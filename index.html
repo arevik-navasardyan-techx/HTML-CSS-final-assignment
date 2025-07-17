@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverifi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container nav-bar">
+            <div class="logo-nav">
+                <button class="hamburger"><img src="images/menu.svg" alt="Menu icon"></button>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Reverifi Logo" />
+
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">How we work</a></li>
+                        <li><a href="#">Find an Agent</a></li>
+                        <li><a href="#">Knowledge Center</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-buttons">
+                <a href="#login" class="login-btn">Sign In</a>
+                <button class="join-btn">Join Now</button>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main-container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Search our listings for </br> your next purchase</h1>
+                <div class="search-box">
+                    <img src="images/location-icon.png" alt="Location">
+                    <input type="text" placeholder="Enter City, neighborhood, ZIP, or address">
+                    <button class="search-button">
+                        <img src="images/search-icon.png" alt="Search">
+                    </button>
+                </div>
+            </div>
+            <!-- <pictue> -->
+            <div class="hero-image">
+                <img src="images/hause.png" alt="Hero illustration">
+            </div>
+        </section>
+
+        <!-- Featured listing -->
+
+        <section class="featured-listing">
+            <h2>Our Featured Listing</h2>
+            <div class="listing-cards">
+                <div class="card">
+                    <div class="badges">
+                        <span class="badge orange">New</span>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/apt1.png" alt="Apartment" class="listing-photo" />
+                        <img src="images/landlord.png" class="landlord-img" alt="Landlord" />
+                    </div>
+                    <div class="card-body">
+                        <div class="title-row">
+                            <h3>Apartment#1</h3>
+                            <span class="distance">1.1km away</span>
+                        </div>
+
+                        <p class="location"><i class="icon-location"></i> Bronx, NY 10459</p>
+                        <div class="icons">
+                            <img src="images/apt-icons.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="price">$30,000</span>
+                        <div class="card-actions">
+                            <button class="icon-btn"><img src="images/like-icon.svg" alt=""></button>
+                            <button class="icon-btn"><img src="images/share-icon.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="badges">
+                        <span class="badge green">Rent</span>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/apt2.png" alt="Apartment" class="listing-photo" />
+                        <img src="images/landlord.png" class="landlord-img" alt="Landlord" />
+                    </div>
+                    <div class="card-body">
+                        <div class="title-row">
+                            <h3>Apartment#1</h3>
+                            <span class="distance">1.1km away</span>
+                        </div>
+
+                        <p class="location"><i class="icon-location"></i> Bronx, NY 10459</p>
+                        <div class="icons">
+                            <img src="images/apt-icons.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="price">$123,000/Month</span>
+                        <div class="card-actions">
+                            <button class="icon-btn"><img src="images/liked-icon.svg" alt=""></button>
+                            <button class="icon-btn"><img src="images/share-icon.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="badges">
+                        <span class="badge orange">New</span>
+                        <span class="badge green">Sale</span>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/apt3.png" alt="Apartment" class="listing-photo" />
+                        <img src="images/landlord.png" class="landlord-img" alt="Landlord" />
+                    </div>
+                    <div class="card-body">
+                        <div class="title-row">
+                            <h3>Apartment#1</h3>
+                            <span class="distance">1.1km away</span>
+                        </div>
+
+                        <p class="location"><i class="icon-location"></i> Bronx, NY 10459</p>
+                        <div class="icons">
+                            <img src="images/apt-icons.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="price">$123,000/Month</span>
+                        <div class="card-actions">
+                            <button class="icon-btn"><img src="images/like-icon.svg" alt=""></button>
+                            <button class="icon-btn"><img src="images/share-icon.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+
+        </section>
+
+        <!-- Events section -->
+
+        <section class="events-section">
+            <h2>Events</h2>
+            <div class="event-types">
+                <span class="tab active">All</span>
+                <span class="tab">Upcoming</span>
+                <span class="tab">Past</span>
+            </div>
+            <div class="event-cards">
+                <button class="arrow left"><img src="images/Events/leftarrow-icon.svg" alt="Go left"></button>
+                <!-- Event1 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Events/event1.png" alt="Event">
+                        <span class="event-badge orange">Personal</span>
+                        <div class="event-date">
+                            <strong>08</strong>
+                            <span>OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="title-row">
+                            <h3>Lorem ipsum</h3>
+                            <div class="event-icons">
+                                <img src="images/Events/add-icon.svg" alt="Add">
+                                <img src="images/Events/share-icon.svg" alt="Share">
+                            </div>
+
+                        </div>
+
+                        <p>7:30 - 10:30PM @someplace</p>
+                        <img src="images/Events/people-icon.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Event2 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Events/event2.png" alt="Event">
+                        <span class="event-badge orange">Personal</span>
+                        <div class="event-date">
+                            <strong>08</strong>
+                            <span>OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="title-row">
+                            <h3>Lorem ipsum</h3>
+                            <div class="event-icons">
+                                <img src="images/Events/add-icon.svg" alt="Add">
+                                <img src="images/Events/share-icon.svg" alt="Share">
+                            </div>
+                        </div>
+
+                        <p>7:30 - 10:30PM @someplace</p>
+                        <img src="images/Events/people-icon.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Event3 -->
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Events/event3.png" alt="Event">
+                        <span class="event-badge orange">Personal</span>
+                        <div class="event-date">
+                            <strong>08</strong>
+                            <span>OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="title-row">
+                            <h3>Lorem ipsum</h3>
+                            <div class="event-icons">
+                                <img src="images/Events/add-icon.svg" alt="Add">
+                                <img src="images/Events/share-icon.svg" alt="Share">
+                            </div>
+                        </div>
+
+                        <p>7:30 - 10:30PM @someplace</p>
+                        <img src="images/Events/people-icon.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Event4 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Events/event4.png" alt="Event">
+                        <span class="event-badge orange">Personal</span>
+                        <div class="event-date">
+                            <strong>08</strong>
+                            <span>OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="title-row">
+                            <h3>Lorem ipsum</h3>
+                            <div class="event-icons">
+                                <img src="images/Events/add-icon.svg" alt="Add">
+                                <img src="images/Events/share-icon.svg" alt="Share">
+                            </div>
+                        </div>
+
+                        <p>7:30 - 10:30PM @someplace</p>
+                        <img src="images/Events/people-icon.svg" alt="">
+                    </div>
+                </div>
+                <button class="arrow right"><img src="images/Events/rightarrow-icon.svg" alt="Go to right"></button>
+            </div>
+        </section>
+
+        <!-- See more -->
+        <section class="verify-section">
+            <div class="reverify">
+                <h2>reveriﬁ™</h2>
+                <p>Search addresses and find your supporting team to move the process.</p>
+                <button>See More</button>
+            </div>
+
+            <div class="verify-tags">
+                <span class="fields"><img src="images/ReverifySeeMOre/attorney.svg" alt="">Attorney</span>
+                <span class="fields"><img src="images/ReverifySeeMOre/camera.svg" alt="">Headquarter</span>
+                <span class="fields"><img src="images/ReverifySeeMOre/agent.svg" alt="">Agent</span>
+                <span class="fields"><img src="images/ReverifySeeMOre/clean.svg" alt="">Cleaning Services</span>
+                <span class="fields"><img src="images/ReverifySeeMOre/home.svg" alt="">Healthcare</span>
+                <span class="fields"><img src="images/ReverifySeeMOre/insurance.svg" alt="">Insurance Provider</span>
+            </div>
+        </section>
+
+        <!-- Explore secton -->
+        <section class="location-section">
+            <h2>Explore our Listings</h2>
+
+            <div class="location-grid">
+                <div class="location-card large">
+                    <img src="images/Explore/new-york.png" alt="New York">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h3>New York</h3>
+                        <p><span class="count">2</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/california.png" alt="California">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>California</h4>
+                        <p><span class="count">43</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/florida.png" alt="Florida">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>Florida</h4>
+                        <p><span class="count">23</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/hawaii.png" alt="Hawaii">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>Hawaii</h4>
+                        <p><span class="count">53</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/alaska.png" alt="Alaska">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>Alaska</h4>
+                        <p><span class="count">5</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/newjersey.png" alt="New Jersey">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>New Jersey</h4>
+                        <p><span class="count">89</span> Listings</p>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="images/Explore/georgia.png" alt="Georgia">
+                    <div class="overlay"></div>
+                    <div class="location-info">
+                        <h4>Georgia</h4>
+                        <p><span class="count">17</span> Listings</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+
+
+        <section class="claim-address">
+            <div class="map-background">
+                <div class="map-content">
+                    <h2>Claim your Address</h2>
+                    <div class="address-input">
+                        <div class="icon-text">
+                            <img src="images/location-icon.png" alt="Location Icon" />
+                            <input type="text" placeholder="Enter your Address" />
+                        </div>
+
+                        <button><img src="images/arrow.svg" alt="Submit" width="30px" height="30px" /></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="green-banner">
+                <p>Start your real estate journey with <img src="images/logo-white.svg" alt="Reverifi Logo" width="70px"
+                        height="34px" /></p>
+                <button class="join-btn">Join us</button>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="social-media">
+                <img src="images/Footer/fb.svg" alt="Facebook" width="30px" height="30px">
+                <img src="images/Footer/instagram.svg" alt="Instagram" width="30px" height="30px">
+                <img src="images/Footer/youtube.svg" alt="YouTube" width="30px" height="30px">
+                <img src="images/Footer/linkdin.svg" alt="LInkedIn" width="30px" height="30px">
+            </div>
+
+
+            <div class="footer-sections">
+                <div class="footer-contact">
+                    <img src="images/logo.png" alt="Reverifi Logo" width="120px" height="60px" class="footer-logo" />
+                    <p><img src="images/Footer/location.svg" alt="Location"> 712-427-1242</p>
+                    <p><img src="images/Footer/mail.svg" alt="Email"> support@example.com</p>
+                    <p><img src="images/Footer/Shape.svg" alt="Phone"> 319-764-9876</p>
+                </div>
+                <div>
+                    <h4>Helpful Links</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Subscribe</h4>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Subscribe to our Newsletter" />
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Reverift. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
